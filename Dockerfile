@@ -36,4 +36,4 @@ RUN echo 'export PATH=$PATH:/root/.dotnet/tools' > ~/.bash_profile
 WORKDIR /usr/bin
 RUN ln -s /root/.dotnet/tools/dotnet-CycloneDX cyclonedx
 
-VOLUME ["/etc/java","/etc/dotnet","/etc/python"]
+VOLUME ["/sbom-java","/sbom-dotnet","/sbom-python"]
